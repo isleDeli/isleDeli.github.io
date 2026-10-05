@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Delilah Beverly | Software Engineer</title>
+  <meta name="description" content="Delilah Beverly is a backend-focused software engineer in the San Francisco Bay Area who builds scalable data pipelines and is moving into AI engineering.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="site-name" href="#top">
+        <span class="site-name__full">Delilah Beverly</span>
+        <span class="site-name__short" aria-hidden="true">DB</span>
+      </a>
+      <nav class="site-nav" aria-label="Main">
+        <ul class="site-nav__list">
+          <li class="site-nav__wide"><a href="#about">About</a></li>
+          <li><a href="#experience">Work</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="hero" aria-labelledby="hero-heading">
+      <div class="container">
+        <p class="label hero__eyebrow">Software Engineer</p>
+        <h1 class="hero__name" id="hero-heading">Delilah Beverly</h1>
+        <p class="hero__lead">I'm a backend-focused software engineer who builds scalable data pipelines.</p>
+        <div class="button-row">
+          <a class="button button--primary" href="#projects">See projects</a>
+          <a class="button button--secondary" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section__grid">
+          <p class="label section__label"><span class="label__num">01</span> / About</p>
+          <div class="section__body">
+            <h2 id="about-heading">About</h2>
+            <p>I'm a backend-focused software engineer based in the San Francisco Bay Area, with experience at Bank of America, NVIDIA and Uber. Most of my work is building scalable data pipelines and the services around them.</p>
+            <p>I studied at Barnard College, where I was part of ADI, Columbia's tech student group, and the Columbia Organization of Rising Entrepreneurs. I'm also a member of ColorStack.</p>
+            <p>I'm working toward becoming an AI engineer. I've been building with large language models, and my contract analyzer placed 6th out of more than 200 teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section__grid">
+          <p class="label section__label"><span class="label__num">02</span> / Experience</p>
+          <div class="section__body">
+            <h2 id="experience-heading">Experience</h2>
+            <ul class="xp-list">
+              <li class="xp">
+                <div class="xp__head">
+                  <h3 class="xp__role">Software Engineer</h3>
+                  <p class="xp__dates">July 2024 – December 2025</p>
+                </div>
+                <p class="xp__org">Bank of America <span class="xp__team">/ GCIB Technology / New York City, NY</span></p>
+                <ul class="xp__points">
+                  <li>Cut data inconsistencies across deal pages by 70% by architecting a unified ingestion pipeline that consolidated 100+ fragmented upstream sources into a single real-time feed serving 30 high-volume deal pages daily.</li>
+                  <li>Reduced feature delivery time from 5–6 weeks to 2–3 weeks by designing and shipping 25+ modular Java Spring REST APIs that became the single source of truth for leveraged finance data and retired 20 legacy service calls.</li>
+                  <li>Cut p95 page load time by 60% (90s to 30s) by replacing hardcoded UI logic with schema-driven backend models that moved rendering rules into 25+ configurable API responses.</li>
+                </ul>
+              </li>
+              <li class="xp">
+                <div class="xp__head">
+                  <h3 class="xp__role">Software Engineer Intern</h3>
+                  <p class="xp__dates">June 2023 – August 2023</p>
+                </div>
+                <p class="xp__org">Bank of America <span class="xp__team">/ GCIB Technology / New York City, NY</span></p>
+                <ul class="xp__points">
+                  <li>Saved $200K annually by building a full-stack entity-resolution service that used NLP fuzzy matching to score company-name matches across deal books, replacing manual reconciliation for investment banking analysts.</li>
+                  <li>Designed and implemented the matching pipeline end to end (JSON ingestion, stop-word removal, tokenization and name matching), processing 100+ records in under 30 seconds.</li>
+                </ul>
+              </li>
+              <li class="xp">
+                <div class="xp__head">
+                  <h3 class="xp__role">Data Engineer Intern</h3>
+                  <p class="xp__dates">June 2022 – September 2022, July 2021 – October 2021</p>
+                </div>
+                <p class="xp__org">NVIDIA <span class="xp__team">/ Digital Marketing Organization / Santa Clara, CA</span></p>
+                <ul class="xp__points">
+                  <li>Unified B2C and B2B customer records from nvidia.com into a single customer profile by designing the data schema and AWS ingestion pipeline, consolidating 20+ sources and 50M records after gathering requirements from 3 stakeholder teams.</li>
+                  <li>Cut batch processing time by 40% by building a Dockerized, Jenkins-orchestrated segmentation job that queried, encrypted and streamed 70GB a day through Kafka into the unified profile store.</li>
+                  <li>Designed and operated internal data warehouse schemas across SQL and NoSQL systems, monitoring and resolving pipeline failures to keep downstream ML models and business metrics running.</li>
+                </ul>
+              </li>
+              <li class="xp">
+                <div class="xp__head">
+                  <h3 class="xp__role">UberSTAR Software Engineering Intern</h3>
+                  <p class="xp__dates">May 2020 – August 2020</p>
+                </div>
+                <p class="xp__org">Uber <span class="xp__team">/ Commerce, Trust &amp; Safety Engineering, Money Team / San Francisco, CA</span></p>
+                <p class="xp__note">My first internship.</p>
+                <ul class="xp__points">
+                  <li>Built the first error-tracking system for Uber's fund distribution platform, using Go and DynamoDB to monitor 100,000 file transactions daily and cut mean time to detection of failed transfers from 60+ minutes to under 10.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section__grid">
+          <p class="label section__label"><span class="label__num">03</span> / Projects</p>
+          <div class="section__body">
+            <h2 id="projects-heading">Projects</h2>
+            <ul class="card-grid">
+              <li>
+                <article class="card">
+                  <h3 class="card__title">AI Legal Document Analyzer</h3>
+                  <p class="card__desc">An LLM-driven contract analyzer that cut manual review time by 75%. Placed 6th out of more than 200 teams in May 2025.</p>
+                  <ul class="card__tags" aria-label="Tech stack">
+                    <li>LLM</li>
+                  </ul>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section__grid">
+          <p class="label section__label"><span class="label__num">04</span> / Skills</p>
+          <div class="section__body">
+            <h2 id="skills-heading">Skills</h2>
+            <div class="skill-groups">
+              <div class="skill-group">
+                <h3 class="label skill-group__name">Languages</h3>
+                <ul class="chips">
+                  <li>Go</li>
+                  <li>Java</li>
+                  <li>Python</li>
+                  <li>C++</li>
+                  <li>JavaScript</li>
+                  <li>SQL</li>
+                  <li>OCaml</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h3 class="label skill-group__name">Backend</h3>
+                <ul class="chips">
+                  <li>Java Spring</li>
+                  <li>REST API design</li>
+                  <li>Kafka</li>
+                  <li>MySQL</li>
+                  <li>Aurora</li>
+                  <li>DynamoDB</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h3 class="label skill-group__name">Infrastructure</h3>
+                <ul class="chips">
+                  <li>AWS</li>
+                  <li>AWS Secrets Manager</li>
+                  <li>Docker</li>
+                  <li>Jenkins</li>
+                  <li>Git</li>
+                  <li>GitLab</li>
+                </ul>
+              </div>
+              <div class="skill-group">
+                <h3 class="label skill-group__name">Other</h3>
+                <ul class="chips">
+                  <li>React</li>
+                  <li>NLP</li>
+                  <li>Machine Learning</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section__grid">
+          <p class="label section__label"><span class="label__num">05</span> / Contact</p>
+          <div class="section__body">
+            <h2 id="contact-heading">Get in touch</h2>
+            <p>Want to talk about backend engineering, data pipelines or building with LLMs? Send me a note.</p>
+            <div class="button-row">
+              <a class="button button--primary" href="mailto:delilahbeverly343@gmail.com">delilahbeverly343@gmail.com</a>
+            </div>
+            <ul class="contact-links">
+              <li><span class="contact-links__label">GitHub</span> <a class="text-link" href="https://github.com/isleDeli">github.com/isleDeli</a></li>
+              <li><span class="contact-links__label">LinkedIn</span> <a class="text-link" href="https://www.linkedin.com/in/delilah-beverly-65646b17a/">linkedin.com/in/delilah-beverly-65646b17a</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__inner">
+        <p>© 2026 Delilah Beverly. Built with plain HTML and CSS.</p>
+        <a class="site-footer__top" href="#top">Back to top</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
